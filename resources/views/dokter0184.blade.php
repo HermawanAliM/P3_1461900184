@@ -49,7 +49,9 @@
             <td>
               <a href="{{ url('dokter0184/' .$dokter->id. "/edit") }}">Edit</a>
               |
-              <a href="#!">Hapus</a>
+              <form action="{{}}">
+
+              </form>
             </td>
         </tr>
         @endforeach
